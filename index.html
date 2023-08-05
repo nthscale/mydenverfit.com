@@ -1,0 +1,170 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    window.onload = () => {
+        // Get the current date
+var date = new Date();
+
+// Get the current month (0-11) and then add 1 to get the correct month number (1-12)
+var currentMonth = date.getMonth() + 1;
+
+// Optionally, you can use an array of month names if you want the full month name
+var monthNames = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+var currentMonthName = monthNames[date.getMonth()];
+
+// Get all elements with the class ".current-month"
+var elements = document.querySelectorAll('.current-month');
+
+// Loop through the elements and update their text content to the current month
+elements.forEach(function(element) {
+  element.textContent = currentMonthName; // or use currentMonthName for the full name
+});
+    }
+    </script>
+</head>
+<body class="">
+  
+    <div class="w-full p-5" style="background:#44d7b7">
+        <div class="mx-10">
+            <img src="logo.png" class="w-56"/>
+        </div>
+    </div>
+
+    <div class="bg-white px-2 max-w-5xl mx-auto">
+        <!-- disclaimer -->
+        <div class="pt-5 text-center">
+            <p class="text-md text-gray-300">Advertorial</p>
+        </div>
+        <!-- headline-->
+        <div class="p-5">
+            <h1 class="text-4xl font-bold">The Biggest Reason Why Your Metabolism Is Holding You Back.</h1>
+            <div class="mt-2 text-xl w-full">Nicole Pounds | Wellness Coach | <div class="inline-block current-month"></div>, 2023</div>
+        </div>
+        <hr/>
+        <!-- section -->
+        <div class="p-5">
+            <img src="nicole1.png" class="rounded-lg w-56"/>
+            <p class="mt-2 text-xl">Hey love! I'm Nicole from Denver, and I've been where you might be now…</p>
+            <p class="mt-2 text-xl">After shedding tons of weight myself, I became a wellness coach, driven by the passion to share what I learned.</p>
+            <p class="mt-2 text-xl">I get it – weight loss can be tough, but it's totally doable. I'll be with you every step of the way, guiding you through workouts, healthy eating, and all the little victories in between. 
+                Ready to start this exciting journey together? Drop me a line, and let's get moving towards a happier, healthier you!</p>
+            <p class="mt-2 text-xl">Want to see proof? Here are some of my clients and progress pictures.</p>
+            
+            <!-- progress picture -->
+            <div class="mt-5">
+                <p class="text-2xl font-semibold">Derek from California, lost 49lbs in 6 months…</p>
+                <img src="derek.png" class="mt-2 w-full object-contain rounded-xl"/>
+            </div>
+            <div class="mt-5">
+                <p class="text-2xl font-semibold">Jessica from Minnesota, lost 27lbs in just 5 weeks! You go girlie!!! I'm so proud of you.</p>
+                <img src="jessica.png" class="mt-2 w-full object-contain rounded-xl"/>
+            </div>
+            <div class="mt-5">
+                <p class="text-2xl font-semibold">Melissa lost 32lbs in 7 weeks of work... Look!</p>
+                <img src="melissa.png" class="mt-2 w-full object-contain rounded-xl"/>
+            </div>
+
+            <div class="pt-5">
+                <p class="mt-2 text-xl underline">Look… Ok, now it's time for me to put my “science” hat on!</p>
+                <p class="mt-2 text-xl">A new study reveals that 95% of Americans have tried to lose weight and only 14% have been able to. Why is this? Metabolism.</p>
+                <p class="mt-2 text-xl">Here’s a not-so-secret fact: our metabolism significantly influences our body’s ability to burn fats and lose weight. If your metabolism isn't functioning at its optimum, you're pushing a rock up a hill. It's time to let science work for you instead of against you.</p>
+            </div>
+            
+            <div class="pt-5">
+                <p class="mt-2 text-xl">Have you ever had a heavy meal…</p>
+                <img src="fastfood.png" class="mt-2 w-56 rounded-lg"/>
+                <p class="mt-2 text-xl font-bold">And felt so tired and slow afterwards? <span class="underline">This is a sign of a slow metabolism.</span></p>
+            </div>
+
+            <div class="pt-5">
+                <p class="mt-2 text-xl">Your “Metabolism” is the speed at which you convert all that food into energy… Energy to walk, exercise, speak, run, and to do the background process of <span class="underline">burning fat.</span></p>
+                <p class="mt-2 text-xl">You know, losing weight can be a lot like driving a car. Just like a car when the speed is too low, the engine can stall out. That's sometimes what happens to our metabolism, and it can throw our weight loss journey into a tailspin.</p>
+                <p class="mt-2 text-xl">But guess what? I've figured out how to shift those gears and rev up that metabolic engine.</p>
+            </div>
+            
+            <div class="pt-5">
+                <p class="mt-2 text-xl">If you’ve ever felt like losing weight has been an uphill battle, you need to try the below powerful natural ingredients. <strong>I’m going to show you why you need them and how they work.</strong></p>
+            </div>
+
+            <!-- ingredients -->
+            <div class="mt-5 bg-gray-100 rounded-lg p-2">
+                <img src="coconutoils.png" class="h-36 w-full rounded-lg object-cover"/>
+                <div class="mt-2 text-xl">
+                    1. <strong>Coconut Oils</strong>: Coconut oils are an indispensable part of a balanced diet due to their high content of Medium Chain Triglycerides (MCTs). MCTs are directly sent to the liver from the digestive tract, where they are either used for immediate energy or turned into ketones, thus aiding weight management.
+                </div>
+            </div>
+            <div class="mt-5 bg-gray-100 rounded-lg p-2">
+                <img src="spinachpowder.png" class="h-36 w-full rounded-lg object-cover"/>
+                <div class="mt-2 text-xl">
+                    2. <strong>Spinach Powder</strong>: Loaded with fiber, vitamins, and minerals, spinach powder is a vital ingredient for maintaining overall health and well-being. The fiber in spinach aids digestion and provides a sense of fullness, preventing overeating and aiding in weight loss.
+                </div>
+            </div>
+            <div class="mt-5 bg-gray-100 rounded-lg p-2">
+                <img src="spirulina.png" class="h-36 w-full rounded-lg object-cover"/>
+                <div class="mt-2 text-xl">
+                    3. <strong>Spirulina</strong>: The high-quality protein and antioxidant properties of spirulina make it a crucial part of a healthy diet. As a potent source of nutrients, spirulina helps in boosting energy levels and promoting weight loss by maintaining optimal metabolic rate.
+                </div>
+            </div>
+            <div class="mt-5 bg-gray-100 rounded-lg p-2">
+                <img src="tumericroot.png" class="h-36 w-full rounded-lg object-cover"/>
+                <div class="mt-2 text-xl">
+                    4. <strong>Turmeric Root</strong>: Turmeric root is essential for its powerful anti-inflammatory effects and high antioxidant capacity. The active compound curcumin in turmeric helps in enhancing the body's natural fat-burning ability and reducing inflammation, crucial for weight management.
+                </div>
+            </div>
+            <div class="mt-5 bg-gray-100 rounded-lg p-2">
+                <img src="omegafattyacids.png" class="h-36 w-full rounded-lg object-cover"/>
+                <div class="mt-2 text-xl">
+                    5. <strong>Omega Fatty Acids</strong>: Omega fatty acids are vital for heart health and proper brain function. They also support the metabolism of fats, helping the body to use fats as an energy source instead of storing them.
+                </div>
+            </div>
+            <div class="mt-5 bg-gray-100 rounded-lg p-2">
+                <img src="inositol.png" class="h-36 w-full rounded-lg object-cover"/>
+                <div class="mt-2 text-xl">
+                    6. <strong>Inositol</strong>: Inositol is crucial as it helps balance glucose levels, thus playing a significant role in insulin signaling. This ensures optimal energy use and storage, facilitating weight management and metabolic health.
+                </div>
+            </div>
+            <div class="mt-5 bg-gray-100 rounded-lg p-2">
+                <img src="vitaminc.png" class="h-36 w-full rounded-lg object-cover"/>
+                <div class="mt-2 text-xl">
+                    7. <strong>Vitamin C</strong>: Vitamin C is needed not only for immune system support but also for the synthesis of important molecules like collagen. Additionally, it aids in the oxidation of body fat during exercise, helping with weight loss and maintenance.
+                </div>
+            </div>
+
+            <!-- bringing it back -->
+            <div class="pt-5">
+                <img src="amazonprices.png" class="w-full object-contain"/>
+                <p class="mt-2 text-xl"><strong>Getting all of these superfoods into your diet sounds great</strong>, but it’s a challenge to ensure optimal doses… Every day you have to measure everything out… Not to mention, the prices… Can you believe they’re charging this much?</p>
+                <img src="price1.png" class="w-full object-contain mt-5"/>
+                <p class="mt-5 text-xl"><strong>And you have to buy all of them...</strong></p>
+                <img src="price2.png" class="w-full object-contain mt-5"/>
+                <img src="thewhat.png" class="w-full object-contain mt-5"/>
+                <p class="mt-2 text-xl">If I ordered all of them, it’d cost me <strong>$167.71</strong>...Wow. Does that even include shipping?</p>
+                <p class="mt-2 text-xl">This is where I want to promote my friends over at LeanGreens.</p>
+                <p class="mt-2 text-xl">Just like me, I take two LeanGreen capsules before breakfast and another after dinner. So I can eat stuff like this! (Yum.)</p>
+                <img src="whatieatnow.png" class="w-full object-contain mt-2"/>
+                <p class="mt-2 text-xl">Their proprietary formula works around the clock, supporting your metabolism, burning fats, and paving the way for a leaner, healthier you...</p>
+                <p class="mt-2 text-xl">All of the above supplements that cost <strong>$167.71</strong> on Amazon, you can get from LeanGreens for just <strong>$47.99</strong> for an entire Month of supplies!</p>
+                <img src="wow.png" class="w-full object-contain mt-2"/>
+                <p class="mt-2 text-xl">The journey to your weight loss goals no longer has to be a tedious uphill battle.</p>
+                <p class="mt-2 text-xl">With LeanGreen, it’s a convenient part of your daily routine. Allow science to accelerate your progress. Empower your metabolism. Embrace LeanGreen.</p>
+
+                <div class="py-2">
+                    <a href="clicker.html" class="text-xl text-blue-500 underline">Check out LeanGreen Here!</a>
+                    <p class="mt-2 text-lg italic">(Btw I know supplies are limited because of their summer sale...)</p>
+                </div>
+
+                <p class="mt-2 text-xl">Kickstart your journey to a healthier, leaner you today. Your future self will thank you!</p>
+                <p class="mt-2 text-xl">See you soon on your journey,</p>
+                <img src="nicolepounds.png" class="mt-5 w-3/4"/>
+                <p class="mt-2 text-xl italic">Nicole Pounds, Your Wellness Coach Since 2017</p>
+                <img src="nicole2.png" class="mt-2 w-56 rounded-lg"/>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
